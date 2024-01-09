@@ -1,0 +1,97 @@
+/* ADDING TRANSITION TO THE BODY ELEMENT */
+body{
+    transition: 1s;
+}
+
+/* STYLING THE COLOR CUSTOMIZERS CONTAINER */
+.color-customizer{
+    background-color: rgba(27, 27, 27, 0.367);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+/* GENERALLY STYLING THE DIV TUBES HOLDING THE COLOR DIVS */
+.tube{
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* INDIVIDUALLY STYLING THE DIV TUBES HOLDING THE COLOR DIVS */
+#red-tube{
+    background-color: darkred;
+}
+
+#blue-tube{
+    background-color: darkblue;
+}
+
+#green-tube{
+    background-color: darkgreen;
+}
+
+/* GENERALLY STYLIG THE COLOR DIVS/FLUIDS */
+.fluid{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+}
+
+/* INDIVIDUALLY STYLING THE COLOR DIVS/FLUIDS */
+#red-fluid{
+    background-color: red;
+}
+
+#blue-fluid{
+    background-color: blue;
+}
+
+#green-fluid{
+    background-color: lawngreen;
+}
+
+/* STYLING THE CONTAINER HOLDING THE COLOR DETAILS */
+.color-detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* STYLING THE INDIVIDUAL DIVS HOLDING EACH COLOR DETAILS */
+.color-detail div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* GENERALLY STYLING THE COLOR REPRESENTATION DIVS */
+.color{
+    width: 50px;
+    height: 20px;
+}
+
+/* INDIVIDUALLY STYLING THE COLOR REPRESENTATION DIVS */
+#red .color{
+    background-color: darkred;
+}
+
+#blue .color{
+    background-color: darkblue;
+}
+
+#green .color{
+    background-color: darkgreen;
+}
+
